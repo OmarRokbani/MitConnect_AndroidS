@@ -1,0 +1,112 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text_size_medium">36sp</dimen>
+    <dimen name="text_size_temp">27sp</dimen>
+    <dimen name="text_size_setting">23sp</dimen>
+    <dimen name="spinner_size">76dp</dimen>
+    <dimen name="text_size_w">18sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="textsizeeee">15sp</dimen>
+    <dimen name="marginw">10dp</dimen>
+    <dimen name="marginx">15dp</dimen>
+    <dimen name="marginx2">8dp</dimen>
+    <dimen name="textlabel">14dp</dimen>
+    <dimen name="bigsize">30sp</dimen>
+    <dimen name="space">10sp</dimen>
+    <dimen name="widthimage1">400px</dimen>
+    <dimen name="heightimage1">200px</dimen>
+    <dimen name="width1">550px</dimen>
+    <dimen name="heightR1">360px</dimen>
+    <dimen name="R1icon">140px</dimen>
+
+    <dimen name="btnconfig">110px</dimen>
+    <dimen name="btnlivepool">350px</dimen>
+    <dimen name="superpadding">8dp</dimen>
+
+    <dimen name="marge1">10sp</dimen>
+
+    <dimen name="margin1">20dp</dimen>
+    <dimen name="R1text">36sp</dimen>
+    <dimen name="R1margin">5sp</dimen>
+    <dimen name="R1text2">15sp</dimen>
+    <dimen name="bheight">50dp</dimen>
+
+    <dimen name="Rh1">100dp</dimen>
+    <dimen name="Rw1">150dp</dimen>
+    <dimen name="Rwimage1">40dp</dimen>
+    <dimen name="Rmarge2">10sp</dimen>
+
+    <dimen name="headerw">100dp</dimen>
+    <dimen name="headerh">30dp</dimen>
+
+    <dimen name="scrollw">200dp</dimen>
+    <dimen name="scrollh">80dp</dimen>
+
+
+    <dimen name="menu">70dp</dimen>
+
+    <dimen name="margeA1">35dp</dimen>
+
+    <dimen name="leddim">75dp</dimen>
+
+    <dimen name="Atext1">18sp</dimen>
+    <dimen name="Amode1">60dp</dimen>
+
+    <dimen name="Bbtnw">175dp</dimen>
+    <dimen name="Bbtnh">150dp</dimen>
+
+    <dimen name="menu1">80dp</dimen>
+
+    <dimen name="bacw">20sp</dimen>
+    <dimen name="bach">35dp</dimen>
+
+    <dimen name="footericon">40dp</dimen>
+    <dimen name="footericonw">30dp</dimen>
+    <dimen name="footertext">14sp</dimen>
+    <dimen name="footericonw2">22dp</dimen>
+
+    <dimen name="pumph1">140dp</dimen>
+    <dimen name="pumpw2">120dp</dimen>
+    <dimen name="pumph2">100dp</dimen>
+    <dimen name="elipsep">20dp</dimen>
+    <dimen name="pumpf3">100dp</dimen>
+    <dimen name="pumph3">70dp</dimen>
+
+    <dimen name="btndw">150dp</dimen>
+    <dimen name="btndh">60dp</dimen>
+    <dimen name="fond2w">250dp</dimen>
+    <dimen name="fond2ml">50dp</dimen>
+    <dimen name="fond2mb">20dp</dimen>
+    <dimen name="fond2ws">220dp</dimen>
+
+    <!-- -->
+    <dimen name="w_imgbtn1">160dp</dimen>
+    <dimen name="h_imgbtn1">166dp</dimen>
+    <dimen name="margins1">5dp</dimen>
+    <dimen name="big_margin">35dp</dimen>
+    <dimen name="h_imgbtn2">150dp</dimen>
+    <dimen name="h_imgbtn3">60dp</dimen>
+    <dimen name="h_imgbtn4">140dp</dimen>
+    <dimen name="tx_size1">15sp</dimen>
+    <dimen name="tx_size2">18sp</dimen>
+    <dimen name="tx_header1">24sp</dimen>
+    <dimen name="w_back">25dp</dimen>
+    <dimen name="h_back">35dp</dimen>
+    <dimen name="h_footer">100dp</dimen>
+    <dimen name="w_h_">50dp</dimen>
+    <dimen name="footer_menu">75dp</dimen>
+
+    <dimen name="padding_f">1dp</dimen>
+
+    <dimen name="dimacc1">50dp</dimen>
+    <dimen name="dimacc2">160dp</dimen>
+    <dimen name="dimacc3">135dp</dimen>
+
+    <dimen name="inner_radius">40dp</dimen>
+    <dimen name="outer_radius">140dp</dimen>
+    <dimen name="tx_header3">21sp</dimen>
+
+
+</resources>

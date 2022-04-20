@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MITCONNECT</string>
+    <string name="loading">Loading....</string>
+    <string name="roue_coudeuse">Roue Coudeuse</string>
+    <string name="valeur">Valeur</string>
+    <string name="annuler">Annuler</string>
+    <string name="envoie">Envoie</string>
+
+    <string name="text_scheme">Dessiner un schéma de déverrouillage pour accéder à l\'application</string>
+    <string name="suivant">Suivant</string>
+    <string name="unlocking_sheme">Unlocking sheme</string>
+    <string name="valider">Valider</string>
+    <string name="againco">The unlock pattern must connect at least 3 dots, try again?</string>
+    <string name="err">\"Erreur\"</string>
+    <string name="changed_schema">Change schema</string>
+    <string name="sch_ma_de_d_verrouillage">Schéma de déverrouillage</string>
+
+    <string name="prog">Prog</string>
+    <string name="forcage">Forçage</string>
+    <string name="local_remote">Local/Remote</string>
+    <string name="send">Send</string>
+    <string name="setting">Setting</string>
+    <string name="roue_coodouse">Roue Coodouse</string>
+    <string name="moin">-</string>
+    <string name="plus">+</string>
+    <string name="_1">1</string>
+    <string name="remote">Remote</string>
+    <string name="locale">Locale</string>
+    <string name="defaut">Defaut</string>
+    <string name="todo">TODO</string>
+</resources>

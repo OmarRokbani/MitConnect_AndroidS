@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/param"
+    android:background="@drawable/elipse10"
+    android:layout_alignParentStart="true"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:layout_alignParentLeft="true">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/a1"
+        android:layout_marginTop="@dimen/margeA1"
+        android:layout_marginLeft="@dimen/margeA1"
+        android:layout_marginRight="@dimen/margeA1"
+        android:layout_marginBottom="@dimen/R1margin"
+        android:padding="@dimen/R1margin">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/head1"
+            android:padding="@dimen/R1margin">
+
+            <TextView
+                android:text="Parametres Volet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:textSize="@dimen/tx_header1"
+                android:textStyle="bold|italic"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+            <ImageButton
+                android:id="@+id/backed"
+                android:layout_width="@dimen/w_back"
+                android:layout_height="@dimen/h_back"
+                android:layout_alignBottom="@+id/textView9"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_toStartOf="@+id/textView9"
+                android:layout_toLeftOf="@+id/textView9"
+                android:background="@android:color/transparent"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/btnback1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/head2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/head1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!-- <TextView
+                    android:id="@+id/textview"
+                    android:layout_width="133dp"
+                    android:layout_height="45dp"
+                    android:layout_above="@+id/settingRemotLocaL"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="0dp"
+                    android:gravity="center"
+                    android:text="Remot/local"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />-->
+
+                <ImageButton
+                    android:id="@+id/settingRemotLocaL"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_below="@+id/paraVoletRemot"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="110dp"
+                    android:background="@drawable/remot_local" />
+
+                <Button
+                    android:id="@+id/paraVoletRemot"
+                    android:layout_width="173dp"
+                    android:layout_height="71dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="109dp"
+                    android:background="@drawable/btn_remot"
+                    android:text="Configuration"
+                    android:textColor="@color/black" />
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

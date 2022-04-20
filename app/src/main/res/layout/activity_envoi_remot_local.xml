@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/elipse10"
+    tools:context=".EnvoiRemotLocal">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="350dp"
+        android:layout_height="423dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.234">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/back"
+                android:layout_width="@dimen/w_back"
+                android:layout_height="45dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitStart"
+                app:srcCompat="@drawable/btnback1" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Configurer Remot ou local"
+                android:textAlignment="center"
+                android:textSize="@dimen/tx_header1"
+                android:textStyle="bold|italic" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/remote"
+                android:layout_width="41dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="@string/remote" />
+
+            <CheckBox
+                android:id="@+id/locale"
+                android:layout_width="41dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="20dp"
+                android:layout_weight="1"
+                android:text="@string/locale" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="11dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="90dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/roue_coodouse"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/decrease"
+                    android:layout_width="41dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="60dp"
+                    android:layout_weight="1"
+                    android:onClick="decreaseInteger"
+                    android:text="@string/moin" />
+
+                <TextView
+                    android:id="@+id/integer_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/_1"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/increase"
+                    android:layout_width="41dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="60dp"
+                    android:layout_weight="1"
+                    android:onClick="increaseInteger"
+                    android:text="@string/plus" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Switch
+                    android:id="@+id/switchforc"
+                    android:layout_width="60dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_weight="1"
+                    android:rotation="90"
+                    tools:ignore="NestedWeights,RtlHardcoded,UseSwitchCompatOrMaterialXml" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="@string/forcage"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="55dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Switch
+                    android:id="@+id/switchprog"
+                    android:layout_width="60dp"
+                    android:layout_height="0dp"
+                    android:layout_marginStart="65dp"
+                    android:layout_weight="1"
+                    android:rotation="90"
+                    tools:ignore="NestedWeights,RtlHardcoded,UseSwitchCompatOrMaterialXml" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text="@string/prog"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="119dp"
+        android:layout_height="45dp"
+        android:background="@drawable/rectanglevert"
+        android:onClick="sendBtn"
+        android:text="Valider"
+        android:textColor="@color/bleu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.219" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

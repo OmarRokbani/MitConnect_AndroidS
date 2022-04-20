@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/elipseblue1"
+    android:layout_alignParentStart="true"
+    android:layout_alignTop="@+id/changecol"
+    tools:context=".ConfigTerminer">
+
+
+    <RelativeLayout
+        android:id="@+id/a1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margeA1"
+        android:layout_marginTop="@dimen/margeA1"
+        android:layout_marginRight="@dimen/margeA1"
+        android:layout_marginBottom="@dimen/Atext1"
+        android:padding="@dimen/R1margin">
+
+        <Button
+            android:id="@+id/retour"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/h_imgbtn3"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="@dimen/R1margin"
+            android:layout_marginLeft="@dimen/R1margin"
+            android:layout_marginTop="@dimen/R1margin"
+            android:layout_marginEnd="@dimen/R1margin"
+            android:layout_marginRight="@dimen/R1margin"
+            android:layout_marginBottom="4dp"
+            android:background="@drawable/btn_bg"
+            android:onClick="retour"
+            android:text="Retour a l'accueil"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/Atext1" />
+
+        <ImageButton
+            android:id="@+id/retour1"
+            android:layout_width="@dimen/bacw"
+            android:layout_height="@dimen/bach"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/btnback1"
+            android:visibility="invisible"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Configuration terminer"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="@dimen/tx_header1"
+            android:textStyle="bold|italic" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/retour"
+            android:layout_below="@+id/retour1"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true">
+
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="120dp"
+                android:layout_height="418dp"
+                android:layout_below="@+id/textView3"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="36dp"
+                android:cropToPadding="false"
+                android:src="@drawable/frameetalon" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="51dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="60dp"
+                android:gravity="center"
+                android:text="Le volet est configuré"
+                android:textColor="@color/red"
+                android:textSize="@dimen/tx_header1"
+                android:textStyle="bold|italic" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
